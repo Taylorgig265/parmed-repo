@@ -22,9 +22,7 @@ export default async function ShopHero(){
               <div className="absolute bg-black/25 w-full h-full p-8 top-0 left-0">
           <div className="flex ">
           <div className="prose  w-fit p-2 rounded-xl lg:prose-xl">
-            <h4 className="text-white font-thin">Biggest Summer Sale</h4>
-            <h1 className="text-black font-bold">Special Offer</h1>
-            <h2 className="text-white font-thin">Save 60%</h2>
+            
           </div>
           </div>
           <div className="prose my-16 lg:prose-xl">

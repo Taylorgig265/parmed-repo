@@ -22,7 +22,7 @@ export default async function Home() {
   const { data: featured, error } = await supabase.from("products").select();
   const products = featured?.slice(0, 8);
 
-  console.log(faqs);
+  
   return (
     <main className="flex min-h-screen flex-col items-center justify-between w-full my-16   lg:py-8">
       {/* hero */}

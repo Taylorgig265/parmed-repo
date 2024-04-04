@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
  
   },
-  plugins: [require("daisyui"),require("@tailwindcss/typography")],
+  plugins: [require("daisyui"),require("@tailwindcss/typography"),require("@tailwindcss/forms")],
   daisyui: {
     themes: ["corporate", "dark", "cupcake"],
   },
